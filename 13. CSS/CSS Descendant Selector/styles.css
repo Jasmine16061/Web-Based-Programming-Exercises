@@ -1,0 +1,15 @@
+/* Desendant Selector: Targe */
+.container p{
+    color: blue;
+    font-weight:bold;
+}
+
+/* Descendant Selector: Targets p inside .container .nested */
+.container .nested p{
+    color: red;
+}
+
+/* Normal p styling (not affected by descendant selector) */
+p{
+    color:black;
+}

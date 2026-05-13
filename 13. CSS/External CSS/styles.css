@@ -1,0 +1,32 @@
+        /* style="
+        background-color: greenyellow;
+        font-family:'Franklin Gothic Medium', 'Arail Narrow', Arial, sans-serif;
+        padding:20px;
+        */
+        body{
+            background-color: thistle;
+            font-family:'Franklin Gothic Medium', 'Arail Narrow', Arial, sans-serif;
+            padding:20px;
+        }
+        /* for the h1 */
+        /* style=" color rgb(96, 141, 52); */
+        h1{
+            color: blue;
+            text-align: center;
+            padding: 20px;
+            text-transform:uppercase;
+        }
+        /* paragraph */
+        /* style="line-height:1.5; margin-bottom:20px" */
+        p{
+            line-height:1.2;
+            margin-bottom:20px;
+        }
+        /* anchor */
+        a{
+            background-color:rgb(255, 0,179);
+            color:aliceblue;
+            padding:10px;
+            text-decoration:none;
+            border-radius:5px;
+        }

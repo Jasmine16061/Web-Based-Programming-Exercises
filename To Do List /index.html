@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-app">
+        <h1>To-Do list</h1>
+        
+        <div class="input-section">
+            <div class="time-picker">
+                <select id="hour-select"></select>
+                <span class="separator">:</span>
+                <select id="minute-select"></select>
+            </div>
+
+            <input type="text" id="todo-input" placeholder="What's the plan?">
+
+            <button id="add-btn">Add</button>
+        </div>
+
+        <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

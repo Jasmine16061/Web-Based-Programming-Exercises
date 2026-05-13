@@ -1,0 +1,32 @@
+/* Type Slector-Applies styles to all elements of the same type */
+h1{
+    color: blue;
+    text-align: center;
+    font-size:28px;
+}
+
+p{
+    font-size:18px;
+    color:darkgreen;
+}
+
+div{
+    background-color: lightgray;
+    padding:10px;
+    margin:10px 0;
+}
+
+/* Group Selector-Apply the same style to multiple elements */
+h1,
+p,
+div,
+footer{
+    border:2px solid black;
+    padding:10px;
+    margin:10px;
+}
+
+/* Special class for one paragraph */
+.special{
+    background-color:yellow;
+}

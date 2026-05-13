@@ -1,0 +1,27 @@
+/* Universal Selector-Least specific (0,0,0,0) */
+*{
+    color: gray;
+}
+
+/* Element Selector-Specificity(0,0,0,1) */
+p{
+    color:blue;
+}
+
+/* Class Selector-Specificity(0,0,1,0) */
+.text{
+    color:green;
+}
+
+/* ID Selector-Specificity(0,1,0,0) */
+#unique-text{
+    color:red;
+}
+
+/* Inline Style-Specificity(1,0,0,0) */
+/* <p> style="color: orange;"> has the highest specificity */
+
+/* !important Rule-Overrides all */
+h1{
+    color: purple !important;
+}
